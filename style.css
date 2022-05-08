@@ -1,0 +1,88 @@
+
+div {
+text-align:center;
+
+}
+#date { color : darkblue;
+
+}
+
+#text { text-align : center ;
+     color : antiquewhite ;
+     text-transform : capitalize ;
+     font-size:40px;
+     font-weight:bold;
+   }
+
+body { background : rosybrown;
+
+      
+}
+
+p { font-size : 20px;
+            color : floralwhite;
+   text-transform : capitalize;
+}
+ h2{ text-align : center;
+    font-size : 40 px;
+    color :darkslategray;}
+
+ul{ font-size : 40px;
+    color : indianred;
+    font-weight : bold ;
+    text-align : center ;} 
+
+p#p1 { color : floralwhite;
+        font-size: 25px;} 
+
+.c1 { text-align : center ;} 
+ol {font-size : 40px;
+     color: indianred;
+text-transform:capitalize; } 
+p.c1{text-transform: capitalize;
+font-weight:bold;}
+
+.content {
+border-collapse : collapse;
+margin : 25px 0;
+font-size :20px;
+min-width : 400px;
+border-radius: 5px 5px 00;
+overflow: hidden;
+box-shadow: 0 0 20px rgba(0,0,0,0,15);
+width: 1000px;
+hight: 700px;
+margin-left:auto;
+margin-right:auto;
+}
+.content thead tr {
+background-color: crimson;
+color : white;
+text-align : left;
+font-weight: bold;
+}
+
+.content th,
+.content td {padding : 12px 15px ;
+}
+
+.content tbody tr {
+border-bottom : 1px solid #dddddd;
+}
+.content tbody tr:nth-of-type(even) {
+background-color: navajowhite;
+}
+.content tbody tr:nth-of-type(odd) {
+background-color: white;
+}
+.content tbody tr:last-of-type { border-bottom: 4px solid crimson;
+}
+.content tbody tr.active-row {
+font-weight:bold;
+color: crimson;
+}
+h3{ text-align:center;
+color : white;
+text-decoration:underline;
+text-transform:capitalize;
+font-size: 30px;}

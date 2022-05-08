@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title> Musical instuments </title>
+<link rel ="stylesheet" href="style.css" />
+</head>
+<body>
+<div>
+<img src ="essp.jpg" width="1100px" >
+</div>
+<p id="date"> Date is : </p>
+<div id="text" >  </div>
+<p> Music is the intentional arrangement of sound.Sounds can be arranged to be pleasant or frightening, and anything in between.<br>  </p> 
+<p> In this page we will help you know the types of<b> musical instuments</b>, and where you can learn to play on them. </p>
+<h2> First : The stringed instruments </h2>
+<ul>
+<li> Piano <img src="piano.JPG" width="100px" height="100px" > </li>
+<li> guitar <img src="guitar.JPG" width="100px" height="100px" > </li>
+<li> Oud <img src="oud.JPG" width="100px" height="100px" > </li>
+<li> violin <img src="violin.JPG" width="100px" height="100px" > </li>
+</ul>
+<h2> second : The Rythem instuments </h2>
+<ul>
+<li> draboka <img src="draboka.JPG" width="100px" height="100px" > </li>
+<li> tambourine <img src="tambourine.JPG" width="100px" height="100px" > </li>
+<li> drums <img src="drums.JPG" width="100px" height="100px" > </li>
+</ul>
+
+<p id="p1"> There are many musical instruments other than those mentioned above,<br> but these are the most common.</p>
+<p id="p2"> And now in order to start playing on your favourit instrument <br> we reccomend you different places in Egypt that have excellent music instuctors and a maestros <br> who will make you able to play and sing as well.</p>
+<p class="c1"> Some of these places are : </p>
+
+<ol class="c1">
+<li> cairo opera house </li>
+<li> the Conservatory </li>
+<li> Culture Palace in Tanta </li>
+<li> فرقة الطلائع الموسيقيه بنادي طنطا </li>
+</ol>
+<p id="p3"> Finally, this table contains some information about each place mentioned above and how to book with them and start your jounry with your favourite musical instrument </p>
+<table class="content" >
+     <thead>
+<tr>
+   <th> The palce </th>
+   <th> address </th>
+   <th> Phone   </th>
+   <th> additional information </th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+    <td> <b> Ciro opera house </b> </td>
+    <td> 26RF+WFV, Opera Square, Zamalek, Cairo Governorate </td>
+    <td>  02 27390188 </td>
+    <td> <p.table> In order to start learning at cairo opera house,<br> you have to go there and choose the maestro you want to learn from ,<br>
+then fill in your data and pay the subscription. </p> </td>
+</tr>
+<tr class="active-row"> 
+    <td> <b> The Conservatoire </b> </td>
+    <td> ش Gamal Al Din Al Afghani, Al Omraneyah Al Gharbeyah, El Omraniya, Giza Governorate </td>
+    <td> 0106 112 2312 </td>
+    <td> <p.table> The Higher Institute of Music is not only a place to learn musical instruments, but it is like the boarding school,<br> where you learn all subjects such as science, Arabic language, studies and others, in addition to the music subjects <br> but the greatest interest is in music and learning the notes and musical chords, so if music is your first interest, <br> you should go to the Conservatory Because after the age of 18 you will not be able to enter, you must at least start there from the beginning of secondary school,after that you will not be allowed </p> </td>
+ </p> </td>
+<tr>
+    <td> <b> Culture Palace in Tanta </b> </td>
+    <td> El mathaf street,Tanta </td>
+    <td>  040 3280250 </td>
+    <td> <p.table> In order to start learning at Culture Palace in Tanta,<br> all you have to do is to go there,choose the instrument you want to play on ,then fill in your data and pay the subscription <br> (but you have to buy the instrument fist beacuse you will take it with you everytime yo go to the lessson )  </p> </td>
+</tr> 
+<tr class="active-row"> 
+ <td> <b> فرقة الطلائع الموسيقيه بنادي طنطا </b> </td>
+    <td> Tanta sporting club,el nady street ,Tanta </td>
+    <td>  0109 427 0303 </td>
+    <td> <p.table> In order to start learning at 
+ all you have to do is to go there,choose the instrument you want to play on ,then fill in your data and pay the subscription <br> (but you have to buy the instrument fist beacuse you will take it with you everytime yo go to the lessson )  </p> </td>
+
+</tr>
+    </tbody>
+
+</table>
+
+<h3> Hope this was benefitial to you ,thank you </h3>
+<footer>
+<button onclick=backtotop()> Back to top </button>
+</footer>
+
+<script >
+
+var i=0,text;
+text= "The Music World Opens It's Hands For You"
+function typing(){ 
+if(i<text.length) {
+  document.getElementById("text").innerHTML += text.charAt(i);
+i++;
+setTimeout(typing,50);
+}
+}
+typing();
+
+onload = document.getElementById("date").innerHTML += Date();
+
+function backtotop() {
+document.documentElement.scrollTop = 0;
+}
+
+
+</script>
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
